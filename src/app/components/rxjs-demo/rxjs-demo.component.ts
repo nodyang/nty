@@ -49,6 +49,7 @@ class  BaiduService{
   `,
   styles: [
   ],
+
   changeDetection: ChangeDetectionStrategy.OnPush
 })
 
