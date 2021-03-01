@@ -1,7 +1,9 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { SetupComponent } from './setup.component';
-import {FormsModule} from '@angular/forms';
+import {FormsModule, ReactiveFormsModule} from '@angular/forms';
+import {NzButtonModule} from 'ng-zorro-antd/button';
+import { NzLayoutModule } from 'ng-zorro-antd/layout';
 
 
 
@@ -9,7 +11,10 @@ import {FormsModule} from '@angular/forms';
   declarations: [SetupComponent],
   imports: [
     CommonModule,
-    FormsModule
+    FormsModule,
+    NzButtonModule,
+    NzLayoutModule,
+    ReactiveFormsModule
   ]
 })
 export class SetupModule { }

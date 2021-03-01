@@ -12,12 +12,14 @@ import { HttpClientModule } from '@angular/common/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { SetupModule } from './pages/setup/setup.module';
+import { RxjsDemoComponent } from './components/rxjs-demo/rxjs-demo.component';
 
 registerLocaleData(zh);
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    RxjsDemoComponent
   ],
   imports: [
     BrowserModule,
